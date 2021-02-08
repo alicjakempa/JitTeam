@@ -1,20 +1,23 @@
-const toggle = document.querySelector(".toggle");
-const menu = document.querySelector(".menu");
- 
-/* Toggle mobile menu */
-function toggleMenu() {
-    if (menu.classList.contains("active")) {
-        menu.classList.remove("active");
-         
-        // adds the menu (hamburger) icon
-        toggle.querySelector("a").innerHTML = '<i class="fas fa-bars"></i>';
-    } else {
-        menu.classList.add("active");
-         
-        // adds the close (x) icon
-        toggle.querySelector("a").innerHTML = '<i class="fas fa-times"></i>'; 
-    }
-}
- 
-/* Event Listener */
-toggle.addEventListener("click", toggleMenu, false);
+var express = require('express');
+
+var app = express();
+app.use(express.static(__dirname));
+
+app.use(express.static('static'));
+
+app.listen(3000);
+
+
+//////////////////////////////////////////////////////////////////
+
+
+// var express = require('express');
+
+// var app = express();
+// var path = require('path');
+
+// app.get('/', function(req, res){
+//     res.sendFile(path.join(__dirname + "/static/index.html"));
+// });
+
+// app.listen(3000);

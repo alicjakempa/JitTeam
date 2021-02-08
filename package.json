@@ -1,0 +1,22 @@
+{
+  "name": "jitteam",
+  "version": "1.0.0",
+  "description": "learning JS and React for Jit Team",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alicjakempa/JitTeam.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alicjakempa/JitTeam/issues"
+  },
+  "homepage": "https://github.com/alicjakempa/JitTeam#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
