@@ -1,6 +1,9 @@
+// zaciąganie całego folderu 
+
 var express = require('express');
 
 var app = express();
+
 app.use(express.static(__dirname));
 
 app.use(express.static('static'));
@@ -8,8 +11,7 @@ app.use(express.static('static'));
 app.listen(3000);
 
 
-//////////////////////////////////////////////////////////////////
-
+// zaciąganie expressem tylko pliku html - na początek
 
 // var express = require('express');
 
