@@ -8,7 +8,7 @@ app.use(express.static(__dirname));
 
 app.use(express.static('static'));
 
-app.listen(3000);
+app.listen(4000);
 
 
 // zaciąganie expressem tylko pliku html - na początek
